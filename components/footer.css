@@ -1,7 +1,14 @@
 @import "./styles.css";
 
 footer {
-  padding: 12px 20px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
 }

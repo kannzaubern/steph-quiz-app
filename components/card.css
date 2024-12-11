@@ -1,0 +1,39 @@
+@import "./styles.css";
+
+.card {
+  margin: 20px 10%;
+  border: 2px solid var(--color-primary);
+  padding: 3% 10%;
+  scroll-margin-top: 100px;
+  border-radius: 12px;
+  position: relative;
+  background-color: #f8e7f6;
+}
+
+.cta_button {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  display: inline-block;
+  padding: 4px 8px 4px 8px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card_bookmark {
+  border: 2px solid var(--color-primary);
+  font-size: 2em;
+  padding: 6px 12px;
+  border-radius: 12px;
+  position: absolute;
+  top: -25px;
+  right: 10px;
+}
+
+.tags {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  display: inline-block;
+  padding: 4px 8px 4px 8px;
+  border-radius: 8px;
+  text-align: center;
+}
