@@ -1,0 +1,14 @@
+@import "./styles.css";
+
+/*
+header {
+  margin-bottom: 24px;
+}
+*/
+
+h4 {
+  font-size: 24px;
+  text-align: center;
+  color: var(--color-txt);
+  flex: 0;
+}
