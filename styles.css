@@ -1,6 +1,7 @@
 @import "./components/footer.css";
 @import "./components/header.css";
 @import "./components/card.css";
+@import url(./components/profile_card.css);
 
 /* -------------------------------------------------------- */
 /* Global Styles */
