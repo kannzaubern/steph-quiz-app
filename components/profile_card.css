@@ -1,0 +1,99 @@
+.profile-picture {
+  border: none;
+  background-color: var(--color-primary);
+  padding: 0;
+}
+
+.edit-profile {
+  display: flex;
+  border: none;
+  padding: 0;
+  background-color: var(--color-primary);
+}
+
+.profile-card {
+  background-color: var(--color-primary);
+  color: var(--color-txt-body);
+  border-radius: 40px;
+  padding: 20px 20px 20px 25px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: inherit;
+}
+
+.profile-card_header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding-bottom: 32px;
+}
+
+.tags {
+  background-color: var(--color-primary);
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  padding-top: 24px;
+}
+
+.tag {
+  background-color: var(--color-primary);
+  border: none;
+  padding: 0px 4px 4px 0;
+}
+
+.profile-card_text {
+  font-size: 16px;
+  margin: 0;
+  padding-top: 16px;
+  color: var(--color-secondary);
+}
+
+.settings-title {
+  padding-top: 40px;
+  margin: 0;
+  font-size: 16px;
+  color: var(--color-secondary);
+}
+
+.dark_mode-settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.multi_play-settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.tracking-settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0;
+}
+
+.toggle {
+  display: flex;
+  border: none;
+  padding: 0;
+  background-color: var(--color-primary);
+}
+
+.settings_subtitle {
+  margin: 0px 0px 8px 0px;
+  color: var(--color-secondary);
+}
+
+.settings-title {
+  padding-bottom: 16px;
+}
+
+.card-title {
+  color: var(--color-secondary);
+  font-size: 32px;
+}
