@@ -1,7 +1,10 @@
 @import "./styles.css";
 
-h4 {
-  font-size: 24px;
-  text-align: center;
-  color: var(--color-txt);
+header {
+  background-color: var(--color-bg);
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
 }
