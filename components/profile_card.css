@@ -28,7 +28,7 @@
   padding-bottom: 32px;
 }
 
-.tags {
+.profile__tags {
   background-color: var(--color-primary);
   border: none;
   display: flex;
@@ -37,7 +37,7 @@
   padding-top: 24px;
 }
 
-.tag {
+.profile__tag {
   background-color: var(--color-primary);
   border: none;
   padding: 0px 4px 4px 0;
