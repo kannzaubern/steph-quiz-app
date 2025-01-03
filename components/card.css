@@ -12,31 +12,36 @@
   padding: 20px 20px 24px 24px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
-.card-title {
-  font-size: 32px;
-  margin: 0;
+.card__title {
+  font-size: 28px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: var(--color-secondary);
 }
 
-.card_bookmark {
+.card__bookmark {
   border: none;
   background-color: var(--color-primary);
   align-self: end;
 }
 
-.card-text {
-  font-size: 16px;
-  margin: 0;
+.card__answer {
+  font-size: px;
+  font-style: italic;
+  color: var(--color-secondary);
+  margin-top: 0;
+  display: none;
 }
 
-.tags {
+.card__tags {
   display: flex;
   gap: 8px;
+  margin-bottom: 15px;
 }
 
-.tag {
+.card__tag {
   background-color: var(--color-tertiary);
   color: var(--color-txt-body);
   font-size: 12px;
@@ -44,7 +49,7 @@
   border-radius: 20px;
 }
 
-.details-button {
+.card__cta-button {
   align-self: flex-end;
   background-color: var(--color-bg);
   color: var(--color-txt-title);
@@ -54,6 +59,6 @@
   font-size: 16px;
 }
 
-.details-button:hover {
+.card__cta-button:hover {
   background-color: var(--color-secondary);
 }
