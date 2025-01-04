@@ -1,0 +1,41 @@
+.custom-toggle {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.custom-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid var(--color-secondary);
+  border-radius: 20px;
+  background-color: none;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px; /* Diameter of the inner circle */
+  width: 15px;
+  left: 3px; /* Starting position for the inner circle */
+  bottom: 3px; /* Center vertically */
+  background-color: var(--color-secondary); /* Circle fill color */
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+input:checked + .slider:before {
+  transform: translateX(10px); /* Move the circle to the right when checked */
+}
