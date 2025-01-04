@@ -1,6 +1,7 @@
 @import "./components/footer.css";
 @import "./components/header.css";
 @import "./components/card.css";
+@import "./components/toggle.css";
 @import url(./components/profile_card.css);
 
 /* -------------------------------------------------------- */
@@ -19,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 40px;
+  padding: 0px 40px 40px;
 }
 
 main {
