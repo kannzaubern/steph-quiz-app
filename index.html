@@ -10,148 +10,11 @@
     <header class="header">
       <h4 class="header__title">Friends Quiz</h4>
     </header>
-    <main class="card-list">
-      <section class="card" id="one">
-        <button class="card__bookmark">
-          <img src="assets/bookmark-unselected-card.svg" alt="bookmark" />
-        </button>
-        <h2 class="card__title">
-          What is name of the coffee shop where the Friends hang out?
-        </h2>
-        <p class="card__answer">Central Perk</p>
-        <div class="card__tags">
-          <span class="card__tag">Easy</span>
-          <span class="card__tag">Characters</span>
-        </div>
-        <button class="card__cta-button">Show answer</button>
-      </section>
-
-      <section class="card" id="two">
-        <button class="card__bookmark">
-          <img src="assets/bookmark-unselected-card.svg" alt="bookmark" />
-        </button>
-        <h2 class="card__title">What is the surname of Ross and Monica?</h2>
-        <p class="card__answer">Geller</p>
-        <div class="card__tags">
-          <span class="card__tag">Easy</span>
-          <span class="card__tag">Characters</span>
-        </div>
-        <button class="card__cta-button">Show answer</button>
-      </section>
-
-      <section class="card" id="three">
-        <button class="card__bookmark">
-          <img src="assets/bookmark-unselected-card.svg" alt="bookmark" />
-        </button>
-        <h2 class="card__title">
-          Which of the 50 U.S. states could Ross not name?
-        </h2>
-        <p class="card__answer">Delaware</p>
-        <div class="card__tags">
-          <span class="card__tag">Hard</span>
-          <span class="card__tag">Characters</span>
-        </div>
-        <button class="card__cta-button">Show answer</button>
-      </section>
-
-      <section class="card" id="four">
-        <button class="card__bookmark">
-          <img src="assets/bookmark-unselected-card.svg" alt="bookmark" />
-        </button>
-        <h2 class="card__title">
-          What is the name of Phoebe's quirky song about a smelly cat?
-        </h2>
-        <p class="card__answer">Smelly Cat</p>
-        <div class="card__tags">
-          <span class="card__tag">Easy</span>
-          <span class="card__tag">Characters</span>
-        </div>
-        <button class="card__cta-button">Show answer</button>
-      </section>
-
-      <section class="card" id="five">
-        <button class="card__bookmark">
-          <img src="assets/bookmark-unselected-card.svg" alt="bookmark" />
-        </button>
-        <h2 class="card__title">What does Joey never share?</h2>
-        <p class="card__answer">Food</p>
-        <div class="card__tags">
-          <span class="card__tag">Easy</span>
-          <span class="card__tag">Characters</span>
-        </div>
-        <button class="card__cta-button">Show answer</button>
-      </section>
-
-      <section class="card" id="six">
-        <button class="card__bookmark">
-          <img src="assets/bookmark-unselected-card.svg" alt="bookmark" />
-        </button>
-        <h2 class="card__title">What is Chandler's last name?</h2>
-        <p class="card__answer">Bing</p>
-        <div class="card__tags">
-          <span class="card__tag">Easy</span>
-          <span class="card__tag">Characters</span>
-        </div>
-        <button class="card__cta-button">Show answer</button>
-      </section>
-
-      <section class="card" id="seven">
-        <button class="card__bookmark">
-          <img src="assets/bookmark-unselected-card.svg" alt="bookmark" />
-        </button>
-        <h2 class="card__title">
-          Which character is a paleontologist by profession?
-        </h2>
-        <p class="card__answer">Ross</p>
-        <div class="card__tags">
-          <span class="card__tag">Easy</span>
-          <span class="card__tag">Characters</span>
-        </div>
-        <button class="card__cta-button">Show answer</button>
-      </section>
-
-      <section class="card" id="eight">
-        <button class="card__bookmark">
-          <img src="assets/bookmark-unselected-card.svg" alt="bookmark" />
-        </button>
-        <h2 class="card__title">What is the name of Rachel's daughter?</h2>
-        <p class="card__answer">Emma</p>
-        <div class="card__tags">
-          <span class="card__tag">Easy</span>
-          <span class="card__tag">Characters</span>
-        </div>
-        <button class="card__cta-button">Show answer</button>
-      </section>
-
-      <section class="card" id="nine">
-        <button class="card__bookmark">
-          <img src="assets/bookmark-unselected-card.svg" alt="bookmark" />
-        </button>
-        <h2 class="card__title">
-          How much money do the Friends win in the Powerball lottery?
-        </h2>
-        <p class="card__answer">$3</p>
-        <div class="card__tags">
-          <span class="card__tag">Hard</span>
-          <span class="card__tag">Numbers</span>
-        </div>
-        <button class="card__cta-button">Show answer</button>
-      </section>
-
-      <section class="card" id="ten">
-        <button class="card__bookmark">
-          <img src="assets/bookmark-unselected-card.svg" alt="bookmark" />
-        </button>
-        <h2 class="card__title">What is the profession of Chandler's wife?</h2>
-        <p class="card__answer">Chef</p>
-        <div class="card__tags">
-          <span class="card__tag">Easy</span>
-          <span class="card__tag">Characters</span>
-        </div>
-        <button class="card__cta-button">Show answer</button>
-      </section>
-    </main>
-
+    <section class="cards-section quiz-questions"></section>
+    <h3 class="answer" data-answer="Central Perk">Answer hidden</h3>
+    <button class="show-answer-btn">Show answer</button>
+    <h3 class="answer" data-answer="Central Perk">Central Perk</h3>
+    <button class="show-answer-btn">Hide Answer</button>
     <footer class="footer">
       <a href="index.html">
         <img src="./assets/home-selected.svg" alt="Home" />
@@ -164,4 +27,5 @@
       </a>
     </footer>
   </body>
+  <script type="module" rel="javascript" src="./js/index.js"></script>
 </html>

@@ -1,3 +1,71 @@
+.cards-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 80px;
+}
+
+.card {
+  background-color: var(--color-primary);
+  color: var(--color-txt-body);
+  border-radius: 32px;
+  padding: 20px 20px 24px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h2 {
+  margin: 15px 0 15px;
+  font-size: 28px;
+  color: var(--color-secondary);
+}
+
+.card h3 {
+  font-size: 16px;
+  margin: 0 0 15px;
+  color: var(--color-secondary);
+  display: none;
+}
+
+.tag-container {
+  display: flex; /* Keep the tags in a row */
+  flex-wrap: wrap; /* Allow wrapping */
+  gap: 8px; /* Space between tags */
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0px 0 20px; /* Remove default margin */
+}
+
+.tag-container .tag {
+  background-color: var(--color-tertiary);
+  color: var(--color-txt-body);
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.answer {
+  font-size: 16px;
+  margin: 0 0 15px;
+  color: var(--color-secondary);
+}
+
+.show-answer-btn {
+  align-self: flex-end;
+  background-color: var(--color-bg);
+  color: var(--color-txt-title);
+  border: none;
+  border-radius: 32px;
+  padding: 10px 20px 10px 20px;
+  font-size: 16px;
+}
+
+.show-answer-btn:hover {
+  background-color: var(--color-secondary);
+}
+
+/*
 .card-list {
   width: 100%;
   display: flex;
@@ -62,3 +130,4 @@
 .card__cta-button:hover {
   background-color: var(--color-secondary);
 }
+*/

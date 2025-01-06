@@ -2,7 +2,8 @@
 @import "./components/header.css";
 @import "./components/card.css";
 @import "./components/toggle.css";
-@import url(./components/profile_card.css);
+@import "./components/bookmarks.css";
+@import "./components/profile_card.css";
 
 /* -------------------------------------------------------- */
 /* Global Styles */
