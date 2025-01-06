@@ -6,6 +6,7 @@ form {
   display: flex;
   flex-direction: column;
   flex-grow: inherit;
+  margin-bottom: 20px;
 }
 
 fieldset {
@@ -15,6 +16,16 @@ fieldset {
 
 textarea {
   width: 100%;
+  border-radius: 5px;
+  padding: 8px;
+  border-color: var(--color-secondary);
+  resize: none;
+}
+
+textarea:focus {
+  border-color: var(--color-tertiary); /* Change to your preferred color */
+  border-width: 2px;
+  outline: none; /* Removes the default focus outline */
 }
 
 .submit-button {
@@ -43,5 +54,21 @@ textarea {
 .user-tag {
   display: flex;
   flex-direction: column;
-  flex-grow: inherit;
+  flex-grow: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 18px;
+  color: var(--color-secondary);
+}
+
+.userTag {
+  background-color: var(--color-tertiary);
+  color: var(--color-txt-body);
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  max-width: fit-content;
 }
