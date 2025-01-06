@@ -1,10 +1,5 @@
 const questions = [
   {
-    text: "What is the name of the coffee shop where the Friends hang out?",
-    answer: "Central Perk",
-    tags: ["Easy", "Geography", "Trivia"],
-  },
-  {
     text: "What is the surname of Ross and Monica?",
     answer: "Geller",
     tags: ["Easy", "Family"],

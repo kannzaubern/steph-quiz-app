@@ -2,7 +2,7 @@ form {
   background-color: var(--color-primary);
   color: var(--color-txt-body);
   border-radius: 40px;
-  padding: 40px 20px 40px 25px;
+  padding: 24px 20px 24px 25px;
   display: flex;
   flex-direction: column;
   flex-grow: inherit;
@@ -15,15 +15,22 @@ fieldset {
 }
 
 textarea {
+  color: var(--color-txt-body);
   width: 100%;
   border-radius: 5px;
   padding: 8px;
-  border-color: var(--color-secondary);
+  background-color: #a9b64b;
+  border: none;
   resize: none;
 }
 
+textarea::placeholder {
+  color: var(--color-secondary);
+  font-style: italic;
+}
+
 textarea:focus {
-  border-color: var(--color-tertiary); /* Change to your preferred color */
+  border-color: #ffffff;
   border-width: 2px;
   outline: none; /* Removes the default focus outline */
 }
@@ -40,12 +47,16 @@ textarea:focus {
 }
 
 .remaining-characters-question {
+  color: var(--color-secondary);
+  font-weight: 600;
   font-size: 12px;
   font-style: italic;
   margin-top: 0px;
 }
 
 .remaining-characters-answer {
+  color: var(--color-secondary);
+  font-weight: 600;
   font-size: 12px;
   font-style: italic;
   margin-top: 0px;
@@ -57,10 +68,30 @@ textarea:focus {
   flex-grow: 0;
 }
 
+input {
+  color: var(--color-txt-body);
+  padding-left: 8px;
+  background-color: #a9b64b;
+  border: none;
+  border-radius: 5px;
+  height: 24px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: var(--color-secondary);
+  font-style: italic;
+  font-size: 12px;
+}
+
 label {
   display: block;
   margin-bottom: 4px;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 600;
   color: var(--color-secondary);
 }
 
