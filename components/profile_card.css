@@ -30,6 +30,8 @@
 .card-title {
   color: var(--color-secondary);
   font-size: 32px;
+  padding-top: 20px;
+  padding-bottom: 16px;
 }
 
 .profile-card_text {
@@ -44,7 +46,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0px;
-  padding-top: 24px;
+  padding-top: 20px;
 }
 
 .profile__tag {
