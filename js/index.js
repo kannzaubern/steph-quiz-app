@@ -37,16 +37,22 @@ for (let question of questions) {
   // Elements to add to the card
   const questionText = newQuestion(question.text); // Question text
   const answerText = newAnswer(question.answer); // Answer text
-  const newTags = questionTags(question.tags); // Tags
+  const questionTags = newTags(question.tags); // Tags
   const bookmark = createBookmark(); // Bookmark
   const showAnswerButton = createShowAnswerButton(answerText, question.answer); // Show Answer Button
 
-  card.append(bookmark, questionText, answerText, newTags, showAnswerButton);
+  card.append(
+    bookmark,
+    questionText,
+    answerText,
+    questionTags,
+    showAnswerButton
+  );
   cardSection.append(card);
 }
 
 // Function to create tags
-function questionTags(tags = []) {
+function newTags(tags = []) {
   const tagContainer = document.createElement("ul"); // Use <ul> instead of <div>
   tagContainer.classList.add("tag-container");
 
