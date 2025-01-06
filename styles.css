@@ -33,7 +33,7 @@ main {
 }
 
 :root {
-  --color-primary: #ebff57;
+  --color-primary: #ebff57; 
   --color-secondary: #4e561f;
   --color-tertiary: #d4e64e;
   --color-bg: #222223;

@@ -28,6 +28,7 @@ form.addEventListener("submit", (event) => {
   card.append(newQuestion, newAnswer, newTag);
 
   form.insertAdjacentElement("afterend", card);
+  form.reset();
 });
 
 const userQuestion = document.querySelector('[data-js="user-question"]');
