@@ -97,3 +97,16 @@ label {
   border-radius: 20px;
   max-width: fit-content;
 }
+
+h2 {
+  font-size: 32px;
+  color: var(--color-secondary);
+  margin: 0;
+}
+
+h3 {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  color: var(--color-secondary);
+}

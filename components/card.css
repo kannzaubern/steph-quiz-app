@@ -1,9 +1,8 @@
-.cards-section {
+.card-list {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-bottom: 80px;
 }
 
 .card {
@@ -13,44 +12,34 @@
   padding: 20px 20px 24px 24px;
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
-.card img {
-  display: block;
-  margin-left: auto;
-  border: none;
-  align-self: end;
-  background-color: var(--color-tertiary);
-  border-radius: 40px;
-}
-
-.card img:hover {
-  background-color: #c2d81f;
-}
-
-.card h2 {
-  margin: 15px 0 15px;
-  font-size: 28px;
+.card__title {
+  font-size: 32px;
   color: var(--color-secondary);
+  margin: 0;
 }
 
-.card h3 {
+.card__bookmark {
+  right: 10px;
+  border: none;
+  background-color: var(--color-primary);
+  align-self: end;
+}
+
+.card__answer {
   font-size: 16px;
   font-style: italic;
-  margin: 0 0 15px;
+  margin: 8px 0 0px;
   color: var(--color-secondary);
 }
 
-.tag-container {
-  display: flex; /* Keep the tags in a row */
-  flex-wrap: wrap; /* Allow wrapping */
-  gap: 5px; /* Space between tags */
-  list-style: none; /* Remove default bullet points */
-  padding: 0; /* Remove default padding */
-  margin: 0px 0 20px; /* Remove default margin */
+.card__tags {
+  padding-top: 5px;
 }
 
-.tag-container .tag {
+.card__tag {
   background-color: var(--color-tertiary);
   color: var(--color-txt-body);
   font-size: 12px;
@@ -58,12 +47,7 @@
   border-radius: 20px;
 }
 
-.answer {
-  font-style: italic;
-  color: gray;
-}
-
-.show-answer-btn {
+.card__cta-button {
   align-self: flex-end;
   background-color: var(--color-bg);
   color: var(--color-txt-title);
@@ -74,6 +58,10 @@
   width: 140px;
 }
 
-.show-answer-btn:hover {
+.card__cta-button:hover {
   background-color: var(--color-secondary);
+}
+
+.hidden {
+  visibility: hidden;
 }
