@@ -17,20 +17,15 @@ fieldset {
 textarea {
   color: var(--color-txt-body);
   width: 100%;
-  border-radius: 5px;
+  border-radius: 12px;
   padding: 8px;
-  background-color: #a9b64b;
-  border: none;
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-secondary);
   resize: none;
 }
 
-textarea::placeholder {
-  color: var(--color-secondary);
-  font-style: italic;
-}
-
 textarea:focus {
-  border-color: #ffffff;
+  border-color: #829034;
   border-width: 2px;
   outline: none; /* Removes the default focus outline */
 }
@@ -52,6 +47,7 @@ textarea:focus {
   font-size: 12px;
   font-style: italic;
   margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .remaining-characters-answer {
@@ -60,6 +56,7 @@ textarea:focus {
   font-size: 12px;
   font-style: italic;
   margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .user-tag {
@@ -71,20 +68,17 @@ textarea:focus {
 input {
   color: var(--color-txt-body);
   padding-left: 8px;
-  background-color: #a9b64b;
-  border: none;
-  border-radius: 5px;
-  height: 24px;
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-secondary);
+  border-radius: 10px;
+  height: 32px;
+  margin-bottom: 15px;
 }
 
 input:focus {
+  border-color: #829034;
+  border-width: 2px;
   outline: none;
-}
-
-input::placeholder {
-  color: var(--color-secondary);
-  font-style: italic;
-  font-size: 12px;
 }
 
 label {
