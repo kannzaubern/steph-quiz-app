@@ -1,0 +1,47 @@
+form {
+  background-color: var(--color-primary);
+  color: var(--color-txt-body);
+  border-radius: 40px;
+  padding: 40px 20px 40px 25px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: inherit;
+}
+
+fieldset {
+  border: none;
+  padding: 0px 0px 20px 0px;
+}
+
+textarea {
+  width: 100%;
+}
+
+.submit-button {
+  align-self: flex-end;
+  background-color: var(--color-bg);
+  color: var(--color-txt-title);
+  border: none;
+  border-radius: 32px;
+  padding: 10px 20px 10px 20px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.remaining-characters-question {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 0px;
+}
+
+.remaining-characters-answer {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 0px;
+}
+
+.user-tag {
+  display: flex;
+  flex-direction: column;
+  flex-grow: inherit;
+}
